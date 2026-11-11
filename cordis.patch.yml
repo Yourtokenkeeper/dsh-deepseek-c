@@ -1,0 +1,5 @@
+- insert:
+    - id: deepseek-c
+      name: dsh-deepseek-c
+      inject: [tools]
+      config: {}

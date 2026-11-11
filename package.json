@@ -1,0 +1,9 @@
+{
+  "name": "dsh-deepseek-c",
+  "version": "1.0.0",
+  "description": "DeepSeek C 端工具：复用 App 登录态，在对话里直接调用 chat.deepseek.com",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
