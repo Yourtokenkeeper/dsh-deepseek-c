@@ -2,7 +2,7 @@
 
 给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）用的 Cordis 插件：把 DeepSeek **消费端**（chat.deepseek.com，即手机 App 的后端）接成 `ds_chat` / `ds_sessions` / `ds_history` / `ds_identity` 四个工具，让智能体在对话里直接把活甩过去。
 
-配套 CLI 见同作者的 [`dscli`](https://github.com/OWNER/dscli)。
+配套 CLI 见同作者的 [`dscli`](https://github.com/Yourtokenkeeper/dscli)。
 
 ## 工具
 
@@ -17,7 +17,7 @@
 
 ```bash
 # 1. 先装 CLI（token 与逻辑都在它里面）
-git clone https://github.com/OWNER/dscli && cd dscli && make build
+git clone https://github.com/Yourtokenkeeper/dscli && cd dscli && make build
 mkdir -p ~/.dsh/ && cp dist/dscli_linux_* ~/.dsh/skills/deepseek-c-end/bin/ds 2>/dev/null || true
 
 # 2. 写凭证
