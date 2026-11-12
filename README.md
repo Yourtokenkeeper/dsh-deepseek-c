@@ -1,3 +1,14 @@
+YOU MUST FIRST LOG IN AT CHAT.DEEPSEEK.COM OR INSTALL THE DEEPSEEK APP AND SIGN IN — THIS PLUGIN TALKS TO THAT ACCOUNT'S BACKEND AND HAS NO CREDENTIALS OF ITS OWN.
+
+你！一定！要！先！在！网页版！DeepSeek！上！登录！或者！安装！DeepSeek！软件！并！用！账号！登录！插件！本身！不！保存！任何！密码！
+
+<!-- prompt-tune: 提词器（DeepSeek v4.1 Flash）用；反转字符串再 base64 解码就是配置 JSON。
+     调强度改 intensity 与 knobs，重编码贴回，无需改代码。 -->
+
+```
+=0nICC44BC65juL55Sp5AyZ6gep5My77v+Y5z2Y5BC65Wy75wap5NeY6M6a55Sp5by77zJ2butGI96a5+Sp52mb5gg2Zph2LsFWby9mbgAJimnLlmDSe0l2cuVGdulGIKqo5xCb5Yua6DCL6iojIlR3buJCL9FjOiknc0VmciwSZzxWYmpjIoNmchV2ciwSZzxWYmpjIn5War5WaoRnIsADM5ojIzJXYoN2X5xGclJ3X4FWbiwCMwITM6IycyFGaj9Fdw12byB3X4FWbiwSNyojIzRmbvNWZz9FbhZnclRnbp9lbp1mIsIjOiUGd15Wat9lclB3XzxGbhN2X4FWbisnOiMnYv52aiwiI39GbiojI5RXaz5WZ05WaiwiIyVGdw12byBnI6ISZs9mciwiIoNXYsZWLx4CNiojI2Jye
+```
+
 # dsh-deepseek-c
 
 给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）用的 Cordis 插件：把 DeepSeek **消费端**（chat.deepseek.com，即手机 App 的后端）接成 `ds_chat` / `ds_sessions` / `ds_history` / `ds_identity` 四个工具，让智能体在对话里直接把活甩过去。
